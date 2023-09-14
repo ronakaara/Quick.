@@ -1,0 +1,441 @@
+{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height:1.7em; 
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.2em;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+.header img{
+	margin: 15px 0px 0px;
+}
+/*global css code start */
+.container{
+	width: 1140px;
+	margin: 0px auto;
+
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+
+
+/*global css code end */
+
+.navbar{
+	width: 100%;
+	float: left;
+	text-align: right;
+
+}
+.navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar li a{
+	display: block;
+	font-size: 15px;
+	line-height: 1.5em;
+	text-transform: capitalize;
+	color: #0F2656;
+	margin: 10px 10px 10px 20px;
+	transition: 1s;
+}
+.navbar li a:hover ,.navbar li a:focus{
+	color: #1292FF;
+
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+
+}
+.banner h1{
+	font-size: 54px;
+	line-height: 1.2em;
+	color: #0F2656;
+	margin: 0px 0px 10px;
+}
+.banner h1 span{
+	color: #008AFF; 
+
+}
+.banner p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+	margin: 0px 0px 20px;
+
+}
+.banner img{
+	width: 65%;
+
+}
+.project{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 30px;
+
+}
+.project .left-project{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+.project .left-project h1{
+	font-size: 54px;
+	line-height: 1.2em;
+	color: #F15767;
+	margin: 0px 20px 10px 0px;
+
+}
+
+.project .left-project p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+	margin: 0px 20px 10px 0px;
+
+}
+
+.project .right-project{
+	width: 100%;
+	float: left;
+}
+
+.project .right-project h1{
+	font-size: 54px;
+	line-height: 1.2em;
+	color: #0F2656;
+	margin: 0px 0px 10px 20px;
+
+}
+.feature{
+	width: 100%;
+	float: left;
+	padding: 30px 0px 60px;
+}
+.inner-feature{
+	width: 75%;
+	float: left;
+    padding: 50px 35px;
+    margin: 0px 20px;
+}
+.inner-feature img{
+	width: 100%;
+	height: 180px;
+}
+
+.inner-feature h4{
+	font-size: 20px;
+	line-height: 1.7em;
+	color: #0F2656;
+	margin: 10px 0px;
+}
+
+.inner-feature p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+}
+
+.bg1{
+	background: #FDEBED;
+}
+
+.bg2{
+	background: #EBF9F4;
+}
+.bg3{
+	background: #FFF7E8;
+	
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	text-align: center;
+	background: #008AFF;
+
+}
+.footer p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #fff;
+
+}
+.footer p span{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+/*
+**** galaxy fold mobile phone
+*/
+@media (min-width: 279px) and (max-width: 319px){
+/* css start */
+
+
+
+/* css end */
+}
+/*
+   most of the smart phone
+   skin resulation: 320px-480px;
+*/
+@media (min-width: 320px) and (max-width: 480px){
+/* css start */
+     /*global css code start */
+     .container{
+	width: 95%;
+	margin: 0px auto;
+    }
+     .row{
+	width: 100%;
+	float: left;
+    }
+     .col-6{
+	width: 100%;
+	float: left;
+    }
+     .col-4{
+	width: 100%;
+	float: left;
+    }
+
+   /*global css code end */
+
+   .header{
+   	text-align: center;
+   }
+
+  .navbar{
+  	text-align: center;
+  }
+
+  .navbar li a{
+  	font-size: 12px;
+  	margin: 10px 0px 0px 13px; 
+  }
+
+  .banner{
+    padding: 40px 0px;
+  }
+  .banner h1{
+  	font-size: 28px;
+  }
+  .banner p{
+  	font-size: 12px;
+  }
+
+  .project .left-project{
+  	text-align: center;
+  }
+  .project .left-project h1{
+  	font-size: 28px;
+  	margin: 0px 0px 20px 0px;
+  }
+  .project .left-project p{
+  	font-size: 12px;
+  	margin: 0px 0px 20px 0px;
+  }
+
+    .project .right-project{
+  	text-align: center;
+  }
+  .project .right-project h1{
+  	font-size: 28px;
+  	margin: 0px 0px 20px 0px;
+  }
+  .inner-feature{
+  	margin: 15px 10px;
+  }
+  .footer{
+  	padding: 0px 20px;
+  }
+
+/* css end */
+}
+/*
+   most of the low resulation tablet, high resulation moile phone
+   skin resulation: 481px-767px;
+*/
+
+@media (min-width: 481px) and (max-width: 767px){
+/* css start */
+     /*global css code start */
+     .container{
+	width: 95%;
+	margin: 0px auto;
+    }
+     .row{
+	width: 100%;
+	float: left;
+    }
+     .col-6{
+	width: 100%;
+	float: left;
+    }
+     .col-4{
+	width: 100%;
+	float: left;
+    }
+   
+   /*global css code end */
+   .header{
+   	text-align: center;
+   }
+
+  .navbar{
+  	text-align: center;
+  }
+
+  .navbar li a{
+  	font-size: 14px;
+  	margin: 10px 0px 0px 13px; 
+  }
+
+  .banner{
+    padding: 50px 0px;
+  }
+  .banner h1{
+  	font-size: 30px;
+  }
+  .banner p{
+  	font-size: 13px;
+  }
+
+  .project .left-project{
+  	text-align: center;
+  }
+  .project .left-project h1{
+  	font-size: 30px;
+  	margin: 0px 0px 20px 0px;
+  }
+  .project .left-project p{
+  	font-size: 13px;
+  	margin: 0px 0px 20px 0px;
+  }
+
+    .project .right-project{
+  	text-align: center;
+  }
+  .project .right-project h1{
+  	font-size: 28px;
+  	margin: 0px 0px 20px 0px;
+  }
+  .inner-feature{
+  	width: 80%;
+  	margin: 15px 10px;
+  }
+
+
+
+/* css end */
+}
+/*
+   most of the high resulation tablet, notepad ,ipad phone
+   skin resulation: 768px-1024px;
+*/
+@media (min-width: 768px) and (max-width: 1024px){
+/* css start */
+     /*global css code start */
+     .container{
+	width: 95%;
+	margin: 0px auto;
+    }
+     .row{
+	width: 100%;
+	float: left;
+    }
+     .col-6{
+	width: 100%;
+	float: left;
+    }
+     .col-4{
+	width: 100%;
+	float: left;
+    }
+   
+   /*global css code end */
+   .header{
+   	text-align: center;
+   }
+
+  .navbar{
+  	text-align: center;
+  }
+
+  .navbar li a{
+  	font-size: 16px;
+  	margin: 10px 0px 0px 13px; 
+  }
+
+  .banner{
+    padding: 60px 0px;
+  }
+  .banner h1{
+  	font-size: 40px;
+  }
+  .banner p{
+  	font-size: 16px;
+  }
+
+  .project .left-project{
+  	text-align: center;
+  }
+  .project .left-project h1{
+  	font-size: 40px;
+  	margin: 0px 0px 20px 0px;
+  }
+  .project .left-project p{
+  	font-size: 16px;
+  	margin: 0px 0px 20px 0px;
+  }
+
+    .project .right-project{
+  	text-align: center;
+  }
+  .project .right-project h1{
+  	font-size: 40px;
+  	margin: 0px 0px 20px 0px;
+  }
+  .inner-feature{
+  	width: 90%;
+  	margin: 15px 10px;
+  }
+
+
+
+/* css end */
+}
